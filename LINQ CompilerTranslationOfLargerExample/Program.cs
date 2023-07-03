@@ -29,7 +29,7 @@ static class MainClass
             .OrderBy(n => n)
             .OrderBy(n => n * 2 + 3)
             .OrderBy(n => 5);
-            //.Select(n => n);
+            //.Select(n => n); //degenerate remove
         var result3 =          
             Enumerable.OrderBy(
                 Enumerable.OrderBy(
